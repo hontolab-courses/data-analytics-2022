@@ -29,7 +29,7 @@
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 第1回 | 4月11日（月） | BadData, not BigData | [Speaker Deck](https://speakerdeck.com/trycycle/2022nian-du-tetaanariteikusuii-di-1hui-20220411) | [nbviewer](https://nbviewer.org/github/hontolab-courses/data-analytics-2022/blob/main/notebook/day-01.ipynb) |  今回はなし |
 | 第2回 | 4月18日（月） | データ選択・集約のための基礎的なSQL操作 | [Speaker Deck](https://speakerdeck.com/trycycle/2022nian-du-tetaanariteikusuii-di-2hui-20220418) | [Google Colab](https://colab.research.google.com/github/hontolab-courses/data-analytics-2022/blob/main/notebook/day-02.ipynb) |  |
-| 第3回 | 4月25日（月） |  |  |  |  |
+| 第3回 | 4月25日（月） | データの結合やデータ変換のためのSQL操作 | [SpeakerDeck](https://speakerdeck.com/trycycle/2022nian-du-detaanariteikusuii-di-3hui-20220425) |  |  |
 | 第4回 | 5月02日（月） |  |  |  |  |
 | 第5回 | 5月09日（月） |  |  |  |  |
 
@@ -56,9 +56,36 @@
 データベースを整備した杏森堂から，再度データ分析の依頼を受けたとする．
 購買履歴が格納されたデータベースを用いて，これまでに何名の顧客が何回（何日）ショッピングを行ったのかを分析したい．
 
-レシート明細テーブル（`receipt`）を用いて顧客の購買頻度を分析し，以下の項目について分析結果を表示せよ：
+レシート明細テーブル（`receipt`）を用いて顧客の購買頻度を分析し，以下の項目について分析結果を表示するSQL文を書き，実行結果とともに示しなさい：
 * 購買頻度（これまでに店舗を利用した日数）
 * 購買頻度に対応する顧客の数
 * 該当する購買頻度以下の顧客数の累積値
 
 ただし，顧客ID（`customer_id`）が"Z"から始まるのものは非会員を表すため，除外して分析すること．
+
+
+### 課題3（Day 3より）
+課題3-1，課題3-2のいずれかを選択し，結果を得るためのSQL文を書き，実行結果とともに示しなさい．
+
+#### 課題3-1: 月別売上の対昨年比
+
+レシート明細テーブル（`receipt`）には2017年1月から2019年10月の間の購買情報が記録されている．2017年から2019年までの期間の売上を把握するために，1ヶ月ごとに以下の情報を集約表示せよ：
+* 年月（`year_month`）
+* 購買回数（`purchase_freq`）
+* 購買1回あたりの平均購入額（`avg_amount_per_purchase`）
+* 月間売上高（`total_amount`）
+* 当該月の前年売上高（`total_amount_last_year`）
+* 売上の対前年比（`ratio`）
+
+#### 課題3-2: ABC分析
+
+ABC分析は販売戦略を考えるために，売上によって商品をランク付けする手法である．
+一般に，ABC分析では売上総額の
+* 上位0〜70％の商品をAランク
+* 上位70〜90％の商品をBランク
+* 上位90〜100%の商品をCランク
+
+とするランク付けを行う．
+
+商品カテゴリ「菓子（`category_major_cd = 08`）」に属する商品について，小区分（`category_small_name`）ごとに売上を集計し，菓子カテゴリの売上総額に占める割合（構成比）を計算せよ．
+また，売上がN位の小区分の行には売上額上位N位までの構成比累計，および構成比累計に基づくABC分析のランク付け結果も表示せよ．
