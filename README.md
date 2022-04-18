@@ -28,7 +28,7 @@
 | |  日時  | トピック | 講義資料 | 課題&ドリル（模範回答なし） | ドリル（模範解答あり） |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 第1回 | 4月11日（月） | BadData, not BigData | [Speaker Deck](https://speakerdeck.com/trycycle/2022nian-du-tetaanariteikusuii-di-1hui-20220411) | [nbviewer](https://nbviewer.org/github/hontolab-courses/data-analytics-2022/blob/main/notebook/day-01.ipynb) |  今回はなし |
-| 第2回 | 4月18日（月） | データ選択・集約のための基礎的なSQL操作 | [Speaker Deck](https://speakerdeck.com/trycycle/2022nian-du-tetaanariteikusuii-di-2hui-20220418) | [Google Colab](https://colab.research.google.com/github/hontolab-courses/data-analytics-2022/blob/main/notebook/day-02.ipynb) |  |
+| 第2回 | 4月18日（月） | データ選択・集約のための基礎的なSQL操作 | [Speaker Deck](https://speakerdeck.com/trycycle/2022nian-du-tetaanariteikusuii-di-2hui-20220418) | [Google Colab](https://colab.research.google.com/github/hontolab-courses/data-analytics-2022/blob/main/notebook/day-02.ipynb) | [Google Colab](https://colab.research.google.com/github/hontolab-courses/data-analytics-2022/blob/main/notebook/answer/day-02.ipynb) |
 | 第3回 | 4月25日（月） | データの結合やデータ変換のためのSQL操作 | [Speaker Deck](https://speakerdeck.com/trycycle/2022nian-du-detaanariteikusuii-di-3hui-20220425) | [Google Colab](https://colab.research.google.com/github/hontolab-courses/data-analytics-2022/blob/main/notebook/day-03.ipynb) |  |
 | 第4回 | 5月02日（月） |  |  |  |  |
 | 第5回 | 5月09日（月） |  |  |  |  |
