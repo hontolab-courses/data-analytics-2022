@@ -35,11 +35,11 @@
 
 
 ## レポート課題
-関係データベースを利用して購買データを管理している仮想の小売店（杏森堂）から，データ分析の依頼を受けたとする．[レポート課題用ページ（URL）](https://colab.research.google.com/github/hontolab-courses/data-analytics-2022/blob/main/notebook/assignment.ipynb)からアクセスできるデータセット（& 分析環境）を利用して，下記4つの課題に対する回答作成しなさい．回答は1つのPDFファイルにまとめ，下記の要領で期日までに提出してください．
+関係データベースを利用して購買データを管理している仮想の小売店（杏森堂）から，データ分析の依頼を受けたとする．[レポート課題用ページ（URL）](https://colab.research.google.com/github/hontolab-courses/data-analytics-2022/blob/main/notebook/assignment.ipynb)に掲載された課題に対する回答を作成しなさい．回答は1つのPDFファイルにまとめ，下記の要領で期日までに提出してください．
 
 * 締め切り：5月27日（金）23:59
 * 提出形式：PDFファイル
-    * レポートのテンプレートは[コチラのURL](https://docs.google.com/document/d/1KgXrIH6GwyofmySK1RH178pKzlLM2pSRPgSEMqCXl_s/edit?usp=sharing)から入手可能
+    * レポートのテンプレートは[コチラのURL](https://docs.google.com/document/d/1KgXrIH6GwyofmySK1RH178pKzlLM2pSRPgSEMqCXl_s/edit?usp=sharing)にあるものをダウンロードして使用すること
     * ファイル名は「学籍番号.pdf」とせよ）
 * 提出方法：学務情報システム経由
 
