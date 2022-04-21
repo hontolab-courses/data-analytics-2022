@@ -39,7 +39,7 @@
 
 * 締め切り：5月27日（金）23:59
 * 提出形式：PDFファイル
-    * レポートのテンプレートは[コチラのURL]()から入手可能
+    * レポートのテンプレートは[コチラのURL](https://docs.google.com/document/d/1KgXrIH6GwyofmySK1RH178pKzlLM2pSRPgSEMqCXl_s/edit?usp=sharing)から入手可能
     * ファイル名は「学籍番号.pdf」とせよ）
 * 提出方法：学務情報システム経由
 
